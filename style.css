@@ -15,7 +15,10 @@ header{
 }
 
 .big-box{
-    background-color: rgba(236, 236, 12, 0.904);
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
     height: 400px;
     margin-top: 20px;
 }
@@ -40,6 +43,20 @@ header{
 
 .logo{
     height: 60px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 20px;
+    border-style: solid;
+    
 }
 
 /* elementi inerenti al float */
