@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.font1{
+    font-family:  'Montserrat', sans-serif; 
+}
+
 header{
     background-color: none;
     height: 80px;
@@ -25,22 +29,58 @@ header{
     border-radius: 4px;
 }
 
+.laterale-img{
+    height: 180px;
+    width: 200px;
+}
+
+.img-lats{
+    background: url(img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    width: 200px;
+    height: 180px;
+    background-size: 80%;
+}
+
+.img-latd{
+    background: url(img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    width: 200px;
+    height: 180px;
+    background-size: 90%;
+}
+
+.img-cen{
+    background: url(img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    width: 580px;
+    height: 180px;
+    background-size: 80%;
+}
+
+
 .big-box2{
-   background-color: rgb(0, 110, 255);
     height: 400px;
     margin-top: 20px; 
 }
 
 .up{
-    background-color: rgb(152, 209, 255);
     height: 50px;
     margin-bottom: 10px;
 }
 
 .bottom{
-    background-color: purple;
+    display: block;
+    margin-left: 480px;
     height: 30px;
     margin-top: 5px;
+    margin: auto;
 }
 
 .logo{
@@ -88,12 +128,12 @@ nav ul li a:hover{
 }
 
 .grey{
-    color:  rgb(77, 77, 77);
+    opacity: 0.4;
+    width: 1000px;
+    height: 400px;
 }
 
-.back{
-    background-color: rgb(77, 77, 77);
-}
+
 
 .laterale{
     height: 50%;
@@ -115,18 +155,39 @@ nav ul li a:hover{
 img{
     border-radius: 4px;
 }
+.sxf{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bb{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.red{
+    color: red;
+}
+
+.centrato{
+    margin-left: 444px;
+}
+
+.gr{
+    color: grey;
+}
 
 /* elementi inerenti al float */
 .laterale-sx{
     float:left; 
-    background-color: rgb(152, 209, 255); 
+   
     height: 330px;
     width: 20% ;
     margin-right: 10px;
 }
 
 .centrale{
-    background-color: rgb(152, 209, 255); ;
+   
     height: 330px;
     width: calc(60% - 20px) ;
     display: inline-table;
@@ -134,9 +195,8 @@ img{
 
 .laterale-dx{
     float:right; 
-    background-color: rgb(152, 209, 255); 
+
     height: 330px;
     width: 20% ;
     margin-left: 10px;
 }
-
