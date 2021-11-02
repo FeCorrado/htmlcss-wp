@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: palevioletred;
+    background-color: none;
     height: 80px;
 }
 
@@ -21,6 +21,7 @@ header{
     background-size: 1000px;
     height: 400px;
     margin-top: 20px;
+    position: relative;
 }
 
 .big-box2{
@@ -43,6 +44,7 @@ header{
 
 .logo{
     height: 60px;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -55,9 +57,36 @@ nav ul li {
 
 nav ul li a{
     padding: 20px;
-    border-style: solid;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
     
 }
+
+nav ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.titolo{
+    font-size: 30;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.bianco{
+    color: white;
+}
+
+.titoli{
+    bottom: 30px;
+    left: 20px;
+    position: absolute;
+    width: 600px;
+}
+
+
 
 /* elementi inerenti al float */
 .laterale-sx{
