@@ -22,6 +22,7 @@ header{
     height: 400px;
     margin-top: 20px;
     position: relative;
+    border-radius: 4px;
 }
 
 .big-box2{
@@ -86,21 +87,48 @@ nav ul li a:hover{
     width: 600px;
 }
 
+.grey{
+    color:  rgb(77, 77, 77);
+}
 
+.back{
+    background-color: rgb(77, 77, 77);
+}
+
+.laterale{
+    height: 50%;
+    margin: auto;
+    display: block;
+}
+
+.spieg{
+    margin-top: 5px;
+    width: 165px;
+    
+}
+
+.colonna{
+    margin: auto;
+    width: 165px;
+}
+
+img{
+    border-radius: 4px;
+}
 
 /* elementi inerenti al float */
 .laterale-sx{
     float:left; 
     background-color: rgb(152, 209, 255); 
     height: 330px;
-    width: 25% ;
+    width: 20% ;
     margin-right: 10px;
 }
 
 .centrale{
     background-color: rgb(152, 209, 255); ;
     height: 330px;
-    width: calc(50% - 20px) ;
+    width: calc(60% - 20px) ;
     display: inline-table;
 }
 
@@ -108,7 +136,7 @@ nav ul li a:hover{
     float:right; 
     background-color: rgb(152, 209, 255); 
     height: 330px;
-    width: 25% ;
+    width: 20% ;
     margin-left: 10px;
 }
 
