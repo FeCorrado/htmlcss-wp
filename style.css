@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: palevioletred;
+    height: 80px;
+}
+
+.main-container{
+    width: 1000px;
+    margin: auto;
+}
+
+.big-box{
+    background-color: rgba(236, 236, 12, 0.904);
+    height: 400px;
+    margin-top: 20px;
+}
+
+.big-box2{
+   background-color: rgb(0, 110, 255);
+    height: 400px;
+    margin-top: 20px; 
+}
+
+.up{
+    background-color: rgb(152, 209, 255);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.bottom{
+    background-color: purple;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.logo{
+    height: 60px;
+}
+
+/* elementi inerenti al float */
+.laterale-sx{
+    float:left; 
+    background-color: rgb(152, 209, 255); 
+    height: 330px;
+    width: 25% ;
+    margin-right: 10px;
+}
+
+.centrale{
+    background-color: rgb(152, 209, 255); ;
+    height: 330px;
+    width: calc(50% - 20px) ;
+    display: inline-table;
+}
+
+.laterale-dx{
+    float:right; 
+    background-color: rgb(152, 209, 255); 
+    height: 330px;
+    width: 25% ;
+    margin-left: 10px;
+}
+
